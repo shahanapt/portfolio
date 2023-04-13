@@ -1,0 +1,220 @@
+.main-bg{
+  min-height:100vh;
+  background: black;
+  display:flex;
+  align-items: center;
+}
+.main-flex{
+  display: flex;
+  justify-content: center;
+}
+.main-flex-two{
+  display: flex;
+  justify-content: center;
+}
+
+.flex-section-three{
+  display: flex;
+}
+
+
+/* @media (max-width: 480px) {
+
+  .flex-section-three { flex-direction: column; }
+} */
+
+.section-icon{
+    height:30px;
+    width: 30px;
+    border:solid;
+    border-width:thin;
+    border-radius:100px;
+    text-align:center;
+    color:#2fa56e;
+    background-color: black;
+    transition: .5s;
+}
+.section-icon::before{
+    background-color: #2fa56e;
+    color: black;
+    transition: .5s;
+  transform: scale(.9);
+  z-index: -1;
+}
+ .section-icon:hover::before{
+    transform: scale(1.1);
+    box-shadow: 0 0 20px #2fa56e;
+} 
+.section-icon:hover{
+    transform: scale(1.2);
+    color: #2fa56e;
+    box-shadow: 0 0 20px #2fa56e;
+    text-shadow: 0 0 10px #2fa56e;
+} 
+
+.section-btn{
+    color: black;
+    background: #2fa56e;
+    border: none;
+  
+    border-radius: 50px;
+    font-size: 14px;
+
+    height: 48px;
+        width: 150px;
+      margin-top: 25px;
+
+}
+.section-btn:hover{
+    background: #54a780;
+    color: black;
+}
+.column-section-one{
+  width: 650px;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: 400px;
+    /* margin: auto; */
+    overflow: hidden;
+  }
+  
+  .content .content-overlay {
+    /* background: rgba(0,0,0,0.7); */
+    position: absolute;
+    height: 99%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+  }
+  
+  .content:hover .content-overlay{
+    opacity: 1;
+  }
+  
+  .content-image{
+    width: 100%;
+    -webkit-filter: grayscale(25%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(25%);
+  }
+  
+  .content-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -30%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  
+  .content:hover .content-details{
+    top: 50%;
+    left: 50%;
+    background-color: rgba(15, 15, 15, 0.704);
+    opacity: 1;
+  }
+  
+  .content-details h3{
+    color: #ffffff;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+  }
+  
+  .content-details p{
+    color: #ffffff;
+    font-size: 0.8em;
+  }
+  
+  .fadeIn-bottom{
+    top: 80%;
+  }
+
+  .section-five-input{
+    width: 375px;
+    height: 55px;
+    background: #141414;
+    border: none;
+    padding: 14px;
+    border-radius: 10px;
+    color: white;
+    /* margin: 5px; */
+    margin-top: 15px;
+}
+.section-five-inputt{
+    width: inherit;
+    margin-top: 15px;
+    /* margin: 10px; */
+    height: 80px;
+    background: #141414;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    padding: 14px
+}
+.card-section-three{
+  width: 320px;
+  background:#80808038;
+  padding:20px;
+  align-items:center;
+}
+.card-section-four{
+    width: 20rem;
+    height: 13rem;
+    margin: 5px;
+}
+
+.section-five-main{
+  width: fit-content;
+}
+.section-five-form{
+  width:50rem;
+}
+
+
+@keyframes text-animation {
+  0% {margin-top: 0;}
+  10% {margin-top: 0;}
+  20% {margin-top: -5.62rem;}
+  30% {margin-top: -5.62rem;}
+  40% {margin-top: -11.24rem;}
+  60% {margin-top: -11.24rem;}
+  70% {margin-top: -5.62rem;}
+  80% {margin-top: -5.62rem;}
+  90% {margin-top: 0;}
+  100% {margin-top: 0;}
+}
+
+@media (max-width: 480px) {
+
+  .main-flex { flex-direction: column; }
+  .main-flex-two { flex-direction: column; }
+  .flex-section-three { flex-direction: column; }
+  .flex-section-four { flex-direction: column;}
+  .section-five-input { width: 340px;}
+  .section-five-inputt { width: 340px;}
+  .profileimage {margin: 20px 0px; justify-content: center;}
+  .section-five-form{ width: 360px; }
+  .card-section-three{ width: 270px; }
+  .card-section-four{ width: 18rem; height: 14rem;}
+  .column-section-one{width:350px}
+}

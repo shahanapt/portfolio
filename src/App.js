@@ -1,0 +1,13 @@
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
+import HomePage from "./pages/home/HomePage";
+
+function App() {
+  return (
+    <div>
+      <HomePage />
+    </div>
+  );
+}
+
+export default App;
