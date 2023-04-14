@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
-function ButtonComponent({text}) {
+function ButtonComponent({ text }) {
   return (
     <div>
-        <button>{text}</button>
+      <button>{text}</button>
     </div>
-  )
+  );
 }
 
-export default ButtonComponent
+export default ButtonComponent;

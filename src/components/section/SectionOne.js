@@ -41,12 +41,18 @@ function SectionOne() {
                 </p>
                 <div className="d-flex" style={{ gap: "15px" }}>
                   <div className="section-icon">
-                    <a href="https://github.com/shahanapt" style={{color:"#2fa56e"}}>
+                    <a
+                      href="https://github.com/shahanapt"
+                      style={{ color: "#2fa56e" }}
+                    >
                       <BsGithub />
                     </a>
                   </div>
                   <div className="section-icon">
-                    <a href="https://www.linkedin.com/in/fathima-shahana-p" style={{color:"#2fa56e"}}>
+                    <a
+                      href="https://www.linkedin.com/in/fathima-shahana-p"
+                      style={{ color: "#2fa56e" }}
+                    >
                       <FaLinkedinIn />{" "}
                     </a>
                   </div>

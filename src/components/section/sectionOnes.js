@@ -10,7 +10,10 @@ function SectionOnes() {
           <div>
             <h3>Hello,It's Me</h3>
             <h1>Fathima shahana.p And I'm a Frontend Develo</h1>
-            <h3>And I'm a <span style={{color:"#2fa56e"}}>Frontend Developer</span></h3>
+            <h3>
+              And I'm a{" "}
+              <span style={{ color: "#2fa56e" }}>Frontend Developer</span>
+            </h3>
           </div>
           <div style={{ display: "flex", alignItems: "center" }}>
             <img

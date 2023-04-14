@@ -14,6 +14,7 @@ function SectionTwo() {
                 <img
                   src={image}
                   style={{ width: "250px", height: "250px", margin: "0 10px" }}
+                  alt=""
                 />
               </div>
 
